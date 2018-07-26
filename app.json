@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle":"black",
+    "navigationBarTitleText": "我家宝宝",
+    "backgroundColor": "#ffffff",
+    "onReachBottomDistance":50
+  },
+  "tabBar": {
+    "backgroundColor": "#323d45",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon_3.png",
+        "selectedIconPath": "images/icon_2.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "宝宝",
+        "iconPath":"images/icon_1.png",
+        "selectedIconPath":"images/icon_2.png"
+      }
+    ]
+  }
+}
